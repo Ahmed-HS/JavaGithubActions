@@ -10,33 +10,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Set up Java
-        uses: actions/setup-java@v2
-        with:
-          java-version: '17' # Update to your desired Java version
-
-      - name: Set up Gradle
-        uses: gradle/setup-gradle@v1
-        with:
-          distribution: '7' # Update to your desired Gradle version
-
-      - name: Compile and Run Main Program (if needed)
-        run: |
-          javac -d target src/Main.java
-          java -cp target Main
-
-      - name: Build and Test with Gradle
-        run: |
-          ./gradlew test
-
-      - name: Check Test Results
-        run: |
-          if [ -d build/reports/tests/test ]; then
-            echo "Test results available."
-            cat build/reports/tests/test/index.html
-          else
-            echo "No test results found."
-          fi
+      - name: Checkout project sources
+        uses: actions/checkout@v3
+      - name: Setup Gradle
+        uses: gradle/gradle-build-action@v2
+      - name: Run build with Gradle Wrapper
+        run: ./gradlew build
+      - name: Run Test with Gradle Wrapper
+        run: ./gradlew test
