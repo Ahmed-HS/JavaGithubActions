@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a98f624c-f0de-4267-9fec-35d0d814cca2" name="Changes" comment="Export" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GithubAction" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GithubAction" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GithubAction" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GithubAction" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GithubAction" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GithubAction" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2VXBG2pCVeuSjY8Z4zK3bEpMv0j" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "/Users/ahmed.abdelfaheem/IdeaProjects/GithubAction/src/main/java/org/example",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/example" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle build" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.GithubAction [build]">
+    <configuration name="StudentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.StudentTest" />
+      <module name="GithubAction.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GithubAction [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="GithubAction [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="StudentTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.example.StudentTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="StudentTest.testCalculateGrade" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.example.StudentTest.testCalculateGrade&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.GithubAction [build]" />
+        <item itemvalue="Gradle.GithubAction [clean]" />
+        <item itemvalue="Gradle.StudentTest.testCalculateGrade" />
+        <item itemvalue="Gradle.StudentTest" />
+        <item itemvalue="Application.StudentTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a98f624c-f0de-4267-9fec-35d0d814cca2" name="Changes" comment="" />
+      <created>1694972447771</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694972447771</updated>
+      <workItem from="1694972448843" duration="156000" />
+      <workItem from="1694972607082" duration="12772000" />
+    </task>
+    <task id="LOCAL-00001" summary="New Commit">
+      <created>1694972746326</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694972746326</updated>
+    </task>
+    <task id="LOCAL-00002" summary="New Commit">
+      <created>1694972949520</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694972949520</updated>
+    </task>
+    <task id="LOCAL-00003" summary="New Commit">
+      <created>1694973622314</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694973622314</updated>
+    </task>
+    <task id="LOCAL-00004" summary="New Commit">
+      <created>1694979231352</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694979231352</updated>
+    </task>
+    <task id="LOCAL-00005" summary="New Commit">
+      <created>1694979280757</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694979280757</updated>
+    </task>
+    <task id="LOCAL-00006" summary="New Commit">
+      <created>1694979409321</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694979409321</updated>
+    </task>
+    <task id="LOCAL-00007" summary="New Commit">
+      <created>1694979486489</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1694979486490</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Adding Comments for the GitHub Actions workflow">
+      <created>1695039515775</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1695039515775</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Adding Comments for the GitHub Actions workflow">
+      <created>1695041549053</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1695041549053</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Adding Comments for the GitHub Actions workflow">
+      <created>1695041648812</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1695041648812</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Adding Comments for the GitHub Actions workflow">
+      <created>1695043038574</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1695043038574</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add java 17 jdk">
+      <created>1695043368037</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1695043368037</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add java 17 jdk">
+      <created>1695043432036</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1695043432036</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Cache Gradle dependencies">
+      <created>1695043578253</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1695043578253</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Reformat The GitHub Actions workflow">
+      <created>1695044025368</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1695044025368</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Step 2: Check if Gradle user home directory exists and clear it if it does else log it doesn't exist.">
+      <created>1695044241058</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1695044241058</updated>
+    </task>
+    <task id="LOCAL-00017" summary="# Step 5: Set Node.js version to 16">
+      <created>1695044718134</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1695044718134</updated>
+    </task>
+    <task id="LOCAL-00018" summary="# Step 5: Set Node.js version to 16">
+      <created>1695044857617</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1695044857617</updated>
+    </task>
+    <task id="LOCAL-00019" summary="# Step 5: Set Node.js version to 16">
+      <created>1695044886637</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1695044886637</updated>
+    </task>
+    <task id="LOCAL-00020" summary="# Step 5: Set Node.js version to 16">
+      <created>1695045182088</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1695045182088</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Archive the build directory as an artifact if tests have passed.&#10;Add a post-job to create a download link for the build directory.&#10;  post_job:">
+      <created>1695045669219</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1695045669219</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Archive the build directory as an artifact if tests have passed.&#10;Add a post-job to create a download link for the build directory.&#10;  post_job:">
+      <created>1695045704098</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1695045704098</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Archive the build directory as an artifact if tests have passed.&#10;Add a post-job to create a download link for the build directory.&#10;  post_job:">
+      <created>1695045739581</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1695045739581</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Archive the build directory as an artifact if tests have passed.&#10;Add a post-job to create a download link for the build directory.&#10;  post_job:">
+      <created>1695045756411</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1695045756411</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Add comments">
+      <created>1695046014214</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1695046014214</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Add comments">
+      <created>1695046051693</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1695046051693</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Add comments">
+      <created>1695046068321</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1695046068321</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Add comments">
+      <created>1695046109878</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1695046109878</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Export">
+      <created>1695046312775</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1695046312775</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Export">
+      <created>1695046597857</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1695046597857</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Export">
+      <created>1695046838693</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1695046838693</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Export">
+      <created>1695047099091</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1695047099091</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Export">
+      <created>1695047272231</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1695047272231</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Export">
+      <created>1695047598293</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1695047598293</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Export">
+      <created>1695047841119</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1695047841119</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Export">
+      <created>1695047854604</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1695047854604</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Export">
+      <created>1695047996830</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1695047996830</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Export">
+      <created>1695048067451</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1695048067451</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="New Commit" />
+    <MESSAGE value="Adding Comments for the GitHub Actions workflow" />
+    <MESSAGE value="Add java 17 jdk" />
+    <MESSAGE value="Cache Gradle dependencies" />
+    <MESSAGE value="Reformat The GitHub Actions workflow" />
+    <MESSAGE value="Step 2: Check if Gradle user home directory exists and clear it if it does else log it doesn't exist." />
+    <MESSAGE value="# Step 5: Set Node.js version to 16" />
+    <MESSAGE value="Archive the build directory as an artifact if tests have passed.&#10;Add a post-job to create a download link for the build directory.&#10;  post_job:" />
+    <MESSAGE value="Add comments" />
+    <MESSAGE value="Export" />
+    <option name="LAST_COMMIT_MESSAGE" value="Export" />
+  </component>
+</project>
