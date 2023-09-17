@@ -23,7 +23,7 @@ public class StudentTest {
     @Test
     public void testCalculateGrade() {
         String grade = student.calculateGrade();
-        assertEquals("A", grade, "Alice's grade should be 'B'");
+        assertEquals("B", grade, "Alice's grade should be 'B'");
     }
 
     @Test
