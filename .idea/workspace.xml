@@ -237,7 +237,7 @@
       <option name="presentableId" value="Default" />
       <updated>1694972447771</updated>
       <workItem from="1694972448843" duration="156000" />
-      <workItem from="1694972607082" duration="10171000" />
+      <workItem from="1694972607082" duration="10223000" />
     </task>
     <task id="LOCAL-00001" summary="New Commit">
       <created>1694972746326</created>
@@ -386,7 +386,21 @@
       <option name="project" value="LOCAL" />
       <updated>1695045669219</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Archive the build directory as an artifact if tests have passed.&#10;Add a post-job to create a download link for the build directory.&#10;  post_job:">
+      <created>1695045704098</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1695045704098</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Archive the build directory as an artifact if tests have passed.&#10;Add a post-job to create a download link for the build directory.&#10;  post_job:">
+      <created>1695045739581</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1695045739581</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
