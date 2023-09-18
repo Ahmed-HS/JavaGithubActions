@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a98f624c-f0de-4267-9fec-35d0d814cca2" name="Changes" comment="# Step 5: Set Node.js version to 16">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a98f624c-f0de-4267-9fec-35d0d814cca2" name="Changes" comment="Archive the build directory as an artifact if tests have passed.&#10;Add a post-job to create a download link for the build directory.&#10;  post_job:">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +237,7 @@
       <option name="presentableId" value="Default" />
       <updated>1694972447771</updated>
       <workItem from="1694972448843" duration="156000" />
-      <workItem from="1694972607082" duration="10024000" />
+      <workItem from="1694972607082" duration="10171000" />
     </task>
     <task id="LOCAL-00001" summary="New Commit">
       <created>1694972746326</created>
@@ -379,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695045182088</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Archive the build directory as an artifact if tests have passed.&#10;Add a post-job to create a download link for the build directory.&#10;  post_job:">
+      <created>1695045669219</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1695045669219</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,6 +400,7 @@
     <MESSAGE value="Reformat The GitHub Actions workflow" />
     <MESSAGE value="Step 2: Check if Gradle user home directory exists and clear it if it does else log it doesn't exist." />
     <MESSAGE value="# Step 5: Set Node.js version to 16" />
-    <option name="LAST_COMMIT_MESSAGE" value="# Step 5: Set Node.js version to 16" />
+    <MESSAGE value="Archive the build directory as an artifact if tests have passed.&#10;Add a post-job to create a download link for the build directory.&#10;  post_job:" />
+    <option name="LAST_COMMIT_MESSAGE" value="Archive the build directory as an artifact if tests have passed.&#10;Add a post-job to create a download link for the build directory.&#10;  post_job:" />
   </component>
 </project>
