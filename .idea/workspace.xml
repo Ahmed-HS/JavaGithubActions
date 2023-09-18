@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a98f624c-f0de-4267-9fec-35d0d814cca2" name="Changes" comment="Step 2: Check if Gradle user home directory exists and clear it if it does else log it doesn't exist." />
+    <list default="true" id="a98f624c-f0de-4267-9fec-35d0d814cca2" name="Changes" comment="# Step 5: Set Node.js version to 16">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +29,33 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="GithubAction" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GithubAction" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GithubAction" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GithubAction" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GithubAction" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GithubAction" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -83,7 +112,7 @@
       <command value="gradle build" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.StudentTest.testCalculateGrade">
+  <component name="RunManager" selected="Gradle.GithubAction [build]">
     <configuration name="StudentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.StudentTest" />
       <module name="GithubAction.test" />
@@ -109,6 +138,28 @@
         <option name="taskNames">
           <list>
             <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="GithubAction [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -169,10 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GithubAction [build]" />
+        <item itemvalue="Gradle.GithubAction [clean]" />
         <item itemvalue="Gradle.StudentTest.testCalculateGrade" />
         <item itemvalue="Gradle.StudentTest" />
         <item itemvalue="Application.StudentTest" />
-        <item itemvalue="Gradle.GithubAction [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +237,7 @@
       <option name="presentableId" value="Default" />
       <updated>1694972447771</updated>
       <workItem from="1694972448843" duration="156000" />
-      <workItem from="1694972607082" duration="9078000" />
+      <workItem from="1694972607082" duration="10024000" />
     </task>
     <task id="LOCAL-00001" summary="New Commit">
       <created>1694972746326</created>
@@ -299,7 +351,35 @@
       <option name="project" value="LOCAL" />
       <updated>1695044241058</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="# Step 5: Set Node.js version to 16">
+      <created>1695044718134</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1695044718134</updated>
+    </task>
+    <task id="LOCAL-00018" summary="# Step 5: Set Node.js version to 16">
+      <created>1695044857617</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1695044857617</updated>
+    </task>
+    <task id="LOCAL-00019" summary="# Step 5: Set Node.js version to 16">
+      <created>1695044886637</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1695044886637</updated>
+    </task>
+    <task id="LOCAL-00020" summary="# Step 5: Set Node.js version to 16">
+      <created>1695045182088</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1695045182088</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,6 +392,7 @@
     <MESSAGE value="Cache Gradle dependencies" />
     <MESSAGE value="Reformat The GitHub Actions workflow" />
     <MESSAGE value="Step 2: Check if Gradle user home directory exists and clear it if it does else log it doesn't exist." />
-    <option name="LAST_COMMIT_MESSAGE" value="Step 2: Check if Gradle user home directory exists and clear it if it does else log it doesn't exist." />
+    <MESSAGE value="# Step 5: Set Node.js version to 16" />
+    <option name="LAST_COMMIT_MESSAGE" value="# Step 5: Set Node.js version to 16" />
   </component>
 </project>

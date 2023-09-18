@@ -59,15 +59,21 @@ jobs:
         uses: mikepenz/action-junit-report@v4
         if: success() || failure() # always run even if the previous step fails
 
-      # Step 7: Archive the JAR file as an artifact if tests have passed.
-      - name: Archive JAR if tests passed
-        if: success()
-        run: mv path/to/your/jar/file.jar $GITHUB_WORKSPACE/my-java-app.jar
-
-      # Step 8: Upload the JAR file as an artifact if tests have passed.
-      - name: Upload JAR if tests passed
+      # Step 7: Archive the build directory as an artifact if tests have passed.
+      - name: Archive build directory if tests passed
         if: success()
         uses: actions/upload-artifact@v2
         with:
-          name: my-java-app-jar
-          path: $GITHUB_WORKSPACE/my-java-app.jar
+          name: build-artifact
+          path: build/
+
+  # Add a post-job to create a download link for the build directory.
+  post_job:
+    needs: build_test_and_publish_jar
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download build directory
+        uses: actions/download-artifact@v2
+        with:
+          name: build-artifact
+          path: path/to/your/downloaded/build-directory
