@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a98f624c-f0de-4267-9fec-35d0d814cca2" name="Changes" comment="Adding Comments for the GitHub Actions workflow">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a98f624c-f0de-4267-9fec-35d0d814cca2" name="Changes" comment="Adding Comments for the GitHub Actions workflow" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -188,7 +185,7 @@
       <option name="presentableId" value="Default" />
       <updated>1694972447771</updated>
       <workItem from="1694972448843" duration="156000" />
-      <workItem from="1694972607082" duration="7256000" />
+      <workItem from="1694972607082" duration="7710000" />
     </task>
     <task id="LOCAL-00001" summary="New Commit">
       <created>1694972746326</created>
@@ -260,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695041648812</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Adding Comments for the GitHub Actions workflow">
+      <created>1695043038574</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1695043038574</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
