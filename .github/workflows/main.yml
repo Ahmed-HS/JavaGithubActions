@@ -1,12 +1,15 @@
-name: Build, Test, and Publish JAR
+# This is a GitHub Actions workflow to build, test, and save artifacts for a Java project using Gradle.
+# It is triggered by pushes to the main branch.
+
+name: Build, Test, and Save Artifacts
 
 on:
   push:
     branches:
-      - master # Change this to your main branch name
+      - main # Change this to your main branch name
 
 jobs:
-  build_test_and_publish_jar:
+  build_test_and_save_artifacts:
     runs-on: ubuntu-latest
 
     steps:
@@ -20,6 +23,7 @@ jobs:
         with:
           path: ~/.gradle/caches
           key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
+          # The above line caches Gradle dependencies for faster builds.
 
       # Step 3: Set up the Gradle build tool on the runner.
       - name: Setup Gradle
@@ -28,32 +32,35 @@ jobs:
       # Step 4: Run the Gradle build using the Gradle Wrapper.
       - name: Run build with Gradle Wrapper
         run: ./gradlew build
+        # The above line runs the Gradle build using the Gradle Wrapper.
 
       # Step 5: Run tests using the Gradle Wrapper.
       - name: Run Test with Gradle Wrapper
         run: ./gradlew test
+        # The above line runs tests using the Gradle Wrapper.
 
       # Step 6: Publish JUnit-style test reports (uncomment when needed).
       - name: Publish Test Report
         uses: mikepenz/action-junit-report@v4
         if: success() || failure() # always run even if the previous step fails
+        # The above lines publish JUnit-style test reports if available.
 
-      # Step 7: Archive the build directory as an artifact if tests have passed.
-      - name: Archive build directory if tests passed
+      # Step 7: Save build artifacts.
+      - name: Save build artifacts
         if: success()
-        uses: actions/upload-artifact@v2
-        with:
-          name: build-artifact
-          path: build/
+        run: |
+          mkdir -p $GITHUB_WORKSPACE/artifacts
+          mv build/ $GITHUB_WORKSPACE/artifacts/
+        # The above lines save build artifacts for download.
 
-
-  # Add a post-job to create a download link for the build directory.
-  post_job:
-    needs: build_test_and_publish_jar
-    runs-on: ubuntu-latest
-    steps:
-      - name: Download build directory
-        uses: actions/download-artifact@v2
-        with:
-          name: build-artifact
-          path: path/to/your/downloaded/build-directory
+# Add a post-job to create a download link for the saved artifacts.
+post_job:
+  needs: build_test_and_save_artifacts
+  runs-on: ubuntu-latest
+  steps:
+    - name: Upload saved artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: build-artifacts
+        path: $GITHUB_WORKSPACE/artifacts/
+        # The above lines upload saved artifacts for download.
