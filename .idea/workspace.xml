@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a98f624c-f0de-4267-9fec-35d0d814cca2" name="Changes" comment="Cache Gradle dependencies">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
-    </list>
+    <list default="true" id="a98f624c-f0de-4267-9fec-35d0d814cca2" name="Changes" comment="Reformat The GitHub Actions workflow" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -187,7 +185,7 @@
       <option name="presentableId" value="Default" />
       <updated>1694972447771</updated>
       <workItem from="1694972448843" duration="156000" />
-      <workItem from="1694972607082" duration="8053000" />
+      <workItem from="1694972607082" duration="8504000" />
     </task>
     <task id="LOCAL-00001" summary="New Commit">
       <created>1694972746326</created>
@@ -287,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695043578253</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Reformat The GitHub Actions workflow">
+      <created>1695044025368</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1695044025368</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,6 +303,7 @@
     <MESSAGE value="Adding Comments for the GitHub Actions workflow" />
     <MESSAGE value="Add java 17 jdk" />
     <MESSAGE value="Cache Gradle dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cache Gradle dependencies" />
+    <MESSAGE value="Reformat The GitHub Actions workflow" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reformat The GitHub Actions workflow" />
   </component>
 </project>

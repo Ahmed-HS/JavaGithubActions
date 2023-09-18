@@ -15,36 +15,45 @@ jobs:
       - name: Checkout project sources
         uses: actions/checkout@v3
 
-      # Step 2: Cache Gradle dependencies.
+      # Step 2: Check if Gradle user home directory exists and clear it if it does else log it doesn't exist.
+      - name: Clear Gradle User Home if exists or log if not
+        run: |
+          if [ -d ~/.gradle ]; then
+            rm -rf ~/.gradle
+          else
+            echo "Gradle user home directory (~/.gradle) does not exist, so it was not cleared."
+          fi
+
+      # Step 3: Cache Gradle dependencies.
       - name: Cache Gradle dependencies
         uses: actions/cache@v2
         with:
           path: ~/.gradle/caches
           key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
 
-      # Step 3: Set up the Gradle build tool on the runner.
+      # Step 4: Set up the Gradle build tool on the runner.
       - name: Setup Gradle
         uses: gradle/gradle-build-action@v2
 
-      # Step 4: Check Java version
+      # Step 5: Check Java version
       - uses: actions/setup-java@v3
         with:
           distribution: 'zulu' # See 'Supported distributions' for available options
           java-version: '17'
 
-      # Step 5: Check Java version
+      # Step 6: Check Java version
       - name: Check Java version
         run: java -version
 
-      # Step 6: Run the Gradle build using the Gradle Wrapper.
+      # Step 7: Run the Gradle build using the Gradle Wrapper.
       - name: Run build with Gradle Wrapper
         run: ./gradlew build
 
-      # Step 7: Run tests using the Gradle Wrapper.
+      # Step 8: Run tests using the Gradle Wrapper.
       - name: Run Test with Gradle Wrapper
         run: ./gradlew test
 
-      # Step 8: Publish JUnit-style test reports, even if the previous steps fail.
+      # Step 9: Publish JUnit-style test reports, even if the previous steps fail.
       - name: Publish Test Report
         uses: mikepenz/action-junit-report@v4
         if: success() || failure() # always run even if the previous step fails
