@@ -3,7 +3,7 @@ name: Build, Test, and Publish JAR
 on:
   push:
     branches:
-      - master # Change this to your main branch name
+      - main # Change this to your main branch name
 
 jobs:
   build_test_and_publish_jar:
@@ -47,19 +47,13 @@ jobs:
           path: build/
 
 
-  # Add a post-job to create a download link for the build directory.
-  post_job:
-    needs: build_test_and_publish_jar
-    runs-on: ubuntu-latest
-    steps:
-      - name: Download build directory
-        uses: actions/download-artifact@v2
-        with:
-          name: build-artifact
-          path: $GITHUB_WORKSPACE/artifacts/build-artifact
-
-      # Add a new post-job to extract the JAR file.
-      - name: Extract JAR file
-        run: unzip $GITHUB_WORKSPACE/artifacts/build-artifact -d $GITHUB_WORKSPACE/artifacts/
-
-
+#  # Add a post-job to create a download link for the build directory.
+#  post_job:
+#    needs: build_test_and_publish_jar
+#    runs-on: ubuntu-latest
+#    steps:
+#      - name: Download build directory
+#        uses: actions/download-artifact@v2
+#        with:
+#          name: build-artifact
+#          path: path/to/your/downloaded/build-directory
