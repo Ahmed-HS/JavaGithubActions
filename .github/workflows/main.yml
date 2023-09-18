@@ -58,14 +58,8 @@ jobs:
           name: build-artifact
           path: $GITHUB_WORKSPACE/artifacts/build-artifact
 
-  # Add another post-job to upload the extracted JAR file as an artifact.
-  post_job_2:
-    needs: post_job
-    runs-on: ubuntu-latest
-    steps:
-      - name: Upload extracted JAR file
-        uses: actions/upload-artifact@v2
-        with:
-          name: extracted-jar
-          path: $GITHUB_WORKSPACE/artifacts/build-artifact
-        # Replace 'path/to/your/jar/' with the actual path to your extracted JAR file.
+      # Add a new post-job to extract the JAR file.
+      - name: Extract JAR file
+        run: unzip $GITHUB_WORKSPACE/artifacts/build-artifact -d $GITHUB_WORKSPACE/artifacts/
+
+
