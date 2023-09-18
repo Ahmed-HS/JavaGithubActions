@@ -33,3 +33,13 @@ jobs:
         if: success() || failure() # always run even if the previous step fails
         with:
           report_paths: '**/build/test-results/test/TEST-*.xml'
+
+      # Step 6: Set up Docker
+      - name: Set up Docker
+        uses: docker/setup-action@v2
+
+      # Step 7: Build and run your Docker container (replace with your Docker build commands)
+      - name: Build and Run Docker Container
+        run: |
+          docker build -t my-docker-image .
+          docker run my-docker-image
