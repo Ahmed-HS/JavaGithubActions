@@ -6,7 +6,7 @@ on:
       - master # Change this to your main branch name
 
 jobs:
-  build_test_and_publish_jar:
+  build_test:
     runs-on: ubuntu-latest
 
     steps:
@@ -47,13 +47,13 @@ jobs:
           path: build/
 
 
-#  # Add a post-job to create a download link for the build directory.
-#  post_job:
-#    needs: build_test_and_publish_jar
-#    runs-on: ubuntu-latest
-#    steps:
-#      - name: Download build directory
-#        uses: actions/download-artifact@v2
-#        with:
-#          name: build-artifact
-#          path: path/to/your/downloaded/build-directory
+  # Logging .
+  download:
+    needs: build_test_and_publish_jar
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download build directory
+        uses: actions/download-artifact@v2
+        with:
+          name: build-artifact
+          path: build/
