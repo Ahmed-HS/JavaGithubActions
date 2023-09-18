@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a98f624c-f0de-4267-9fec-35d0d814cca2" name="Changes" comment="Reformat The GitHub Actions workflow" />
+    <list default="true" id="a98f624c-f0de-4267-9fec-35d0d814cca2" name="Changes" comment="Step 2: Check if Gradle user home directory exists and clear it if it does else log it doesn't exist." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -185,7 +185,7 @@
       <option name="presentableId" value="Default" />
       <updated>1694972447771</updated>
       <workItem from="1694972448843" duration="156000" />
-      <workItem from="1694972607082" duration="8504000" />
+      <workItem from="1694972607082" duration="9078000" />
     </task>
     <task id="LOCAL-00001" summary="New Commit">
       <created>1694972746326</created>
@@ -292,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695044025368</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Step 2: Check if Gradle user home directory exists and clear it if it does else log it doesn't exist.">
+      <created>1695044241058</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1695044241058</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,6 +311,7 @@
     <MESSAGE value="Add java 17 jdk" />
     <MESSAGE value="Cache Gradle dependencies" />
     <MESSAGE value="Reformat The GitHub Actions workflow" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reformat The GitHub Actions workflow" />
+    <MESSAGE value="Step 2: Check if Gradle user home directory exists and clear it if it does else log it doesn't exist." />
+    <option name="LAST_COMMIT_MESSAGE" value="Step 2: Check if Gradle user home directory exists and clear it if it does else log it doesn't exist." />
   </component>
 </project>
