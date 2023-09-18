@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a98f624c-f0de-4267-9fec-35d0d814cca2" name="Changes" comment="Adding Comments for the GitHub Actions workflow" />
+    <list default="true" id="a98f624c-f0de-4267-9fec-35d0d814cca2" name="Changes" comment="Cache Gradle dependencies">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -185,7 +187,7 @@
       <option name="presentableId" value="Default" />
       <updated>1694972447771</updated>
       <workItem from="1694972448843" duration="156000" />
-      <workItem from="1694972607082" duration="7710000" />
+      <workItem from="1694972607082" duration="8053000" />
     </task>
     <task id="LOCAL-00001" summary="New Commit">
       <created>1694972746326</created>
@@ -264,7 +266,28 @@
       <option name="project" value="LOCAL" />
       <updated>1695043038574</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add java 17 jdk">
+      <created>1695043368037</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1695043368037</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add java 17 jdk">
+      <created>1695043432036</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1695043432036</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Cache Gradle dependencies">
+      <created>1695043578253</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1695043578253</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +296,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New Commit" />
     <MESSAGE value="Adding Comments for the GitHub Actions workflow" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Comments for the GitHub Actions workflow" />
+    <MESSAGE value="Add java 17 jdk" />
+    <MESSAGE value="Cache Gradle dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cache Gradle dependencies" />
   </component>
 </project>
