@@ -34,12 +34,8 @@ jobs:
         with:
           report_paths: '**/build/test-results/test/TEST-*.xml'
 
-      # Step 6: Set up Docker
-      - name: Set up Docker
-        uses: docker/setup-action@v2
-
-      # Step 7: Build and run your Docker container (replace with your Docker build commands)
-      - name: Build and Run Docker Container
-        run: |
-          docker build -t my-docker-image .
-          docker run my-docker-image
+      # Add a step to set the Node.js version to 12 (node12)
+      - name: Set Node.js version to 12
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
