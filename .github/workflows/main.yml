@@ -67,5 +67,5 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: extracted-jar
-          path: $GITHUB_WORKSPACE/artifacts/path/to/your/jar/
+          path: $GITHUB_WORKSPACE/artifacts/build-artifact
         # Replace 'path/to/your/jar/' with the actual path to your extracted JAR file.
