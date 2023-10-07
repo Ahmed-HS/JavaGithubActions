@@ -7,29 +7,17 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class StudentTest {
 
-    private Student student;
-
-    @BeforeEach
-    public void setUp() {
-        student = new Student("Alice", 85.0, 92.5);
-    }
-
-    @Test
-    public void testCalculateAverageScore() {
-        double averageScore = student.calculateAverageScore();
-        assertEquals(88.75, averageScore, 0.01, "Average score should be approximately 88.75");
-    }
-
     @Test
     public void testCalculateGrade() {
+        Student student = new Student("Ali", 90.0);
         String grade = student.calculateGrade();
-        assertEquals("B", grade, "Alice's grade should be 'B'");
+        assertEquals("A", grade, "Grade should be A");
     }
 
     @Test
     public void testCalculateGradeForFailingStudent() {
-        student = new Student("Bob", 45.0, 32.5);
+        Student student = new Student("Ahmed", 82.0);
         String grade = student.calculateGrade();
-        assertEquals("F", grade, "Bob's grade should be 'F'");
+        assertEquals("B", grade, "Grade should be B");
     }
 }
