@@ -2,28 +2,21 @@ package org.example;
 
 public class Student {
     private String name;
-    private double midtermScore;
-    private double finalScore;
+    private double finalGrade;
 
-    public Student(String name, double midtermScore, double finalScore) {
+    public Student(String name, double finalGrade) {
         this.name = name;
-        this.midtermScore = midtermScore;
-        this.finalScore = finalScore;
-    }
-
-    public double calculateAverageScore() {
-        return (midtermScore + finalScore) / 2;
+        this.finalGrade = finalGrade;
     }
 
     public String calculateGrade() {
-        double averageScore = calculateAverageScore();
-        if (averageScore >= 90) {
+        if (finalGrade >= 90) {
             return "A";
-        } else if (averageScore >= 80) {
-            return "B";
-        } else if (averageScore >= 70) {
+        } else if (finalGrade >= 80) {
             return "C";
-        } else if (averageScore >= 60) {
+        } else if (finalGrade >= 70) {
+            return "B";
+        } else if (finalGrade >= 60) {
             return "D";
         } else {
             return "F";
